@@ -1,6 +1,6 @@
 テーブルビューの使用方法まとめ
 =========================
-UITableViewの使用例をまとめたサンプルを作成しました。このサンプルでは、UITableViewControllerを使用せず、ViewControllerに UITableViewのデリゲートを指定し使用しています。
+UITableViewの使用例をまとめたサンプルを作成しました。このサンプルでは、*UITableViewController*を使用せず、*UIViewController*に *UITableView*のデリゲートを指定し使用しています。
 
 カスタムセルや編集モードの使用例をはじめ、使用頻度の高いデリゲートメソッドを搭載していますので、テンプレートとしてもご使用いただけます。
 
@@ -10,7 +10,7 @@ UITableViewの使用例をまとめたサンプルを作成しました。この
 2. スクロール位置の保持と復元
 3. セルをフリックした際の編集モード
 4. 編集モード時の削除ボタンの文言変更
-5. カスタムセルでボーダーラインを指定（標準の UITableViewCellSeparatorStyleで余白が空く問題解消）
+5. カスタムセルでボーダーラインを指定（標準の *UITableViewCellSeparatorStyle*で余白が空く問題解消）
 
 ##その他の機能
 
